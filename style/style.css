@@ -66,6 +66,11 @@ nav li {
     margin-top: 32px;
     border-style: none;
 }
+.btn:hover{
+    color: #FFFFFF;
+    background-color: blue;
+
+}
 
 .banner-img {
     padding: 50px;
@@ -177,6 +182,11 @@ nav li {
     left: 880px;
     top: 3104px;
 }
+.btn-10:hover{
+    color: #FFFFFF;
+    background-color: blue;
+
+}
 
 /* Some facts section */
 .fact {
@@ -214,6 +224,15 @@ nav li {
     padding: 45px 36px 59px 35px;
 
 }
+.ribon:hover,
+.customers:hover,
+.projects:hover,
+.email:hover{
+    border: 1px solid red;
+
+}
+    
+
 
 .number {
     font-weight: 600;
@@ -269,4 +288,25 @@ nav li {
     text-align: center;
     color: #424242;
     padding-top: 39px;
+}
+/* -------------Mobile Device---------
+----------------------------------- */
+@media only screen and (max-width:688px) {
+
+   .manu, {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .features{
+        flex-direction: column;
+        padding-left: -300px;
+    }
+    .features-img{  
+        grid-template-columns: repeat(1, 1fr);
+       
+
+    }
 }
