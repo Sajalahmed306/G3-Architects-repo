@@ -289,24 +289,3 @@ nav li {
     color: #424242;
     padding-top: 39px;
 }
-/* -------------Mobile Device---------
------------------------------------ */
-@media only screen and (max-width:688px) {
-
-   .manu, {
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-    .banner-img{
-        width: 100%;
-    }
-    .features{
-        flex-direction: column;
-        padding-left: -300px;
-    }
-    .features-img{  
-        grid-template-columns: repeat(1, 1fr);
-       
-
-    }
-}
